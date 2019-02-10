@@ -12,3 +12,5 @@ def line(array)
 end
 
 names = ["Squirrel", "Moose", "Chuck"]
+
+line(names)
