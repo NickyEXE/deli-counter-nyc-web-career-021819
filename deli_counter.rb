@@ -24,6 +24,7 @@ def now_serving(array)
   else
     "Currently serving #{array.shift}."
     array
+  end
 end
 
 names = ["Squirrel", "Moose", "Chuck"]
