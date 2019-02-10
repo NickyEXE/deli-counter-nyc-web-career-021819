@@ -14,7 +14,7 @@ end
 
 def take_a_number(array,string)
   array.push(string)
-  puts array.length
+  puts "Welcome, #{string}. You are number #{array.length}"
   array
 end
 
