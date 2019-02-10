@@ -18,6 +18,14 @@ def take_a_number(array,string)
   array
 end
 
+def now_serving(array)
+  if array.length=0
+    "There is nobody waiting to be served."
+  else
+    "Currently serving #{array.shift}."
+    array
+end
+
 names = ["Squirrel", "Moose", "Chuck"]
 
 line(names)
