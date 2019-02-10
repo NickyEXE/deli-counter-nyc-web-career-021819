@@ -12,6 +12,8 @@ def line(array)
   end
 end
 
+def take_a_number(array,string)
+
 names = ["Squirrel", "Moose", "Chuck"]
 
 line(names)
