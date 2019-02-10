@@ -10,3 +10,5 @@ def line(array)
     puts string
   end
 end
+
+names = ["Squirrel", "Moose", "Chuck"]
