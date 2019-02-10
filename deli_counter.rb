@@ -13,6 +13,9 @@ def line(array)
 end
 
 def take_a_number(array,string)
+  array.push(string)
+  puts array.length
+end
 
 names = ["Squirrel", "Moose", "Chuck"]
 
